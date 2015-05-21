@@ -1,0 +1,282 @@
+
+html, body
+{
+	height: auto;
+}
+
+body
+{
+	
+	width: 780px;
+	
+	margin: 130px auto;
+	padding: 0px;
+	background: rgba(128, 131, 133, 1);
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 11pt;
+	font-weight: 300;
+	color: #6c6c6c;
+	
+}
+
+#shadowcont
+{
+	margin: 0 auto;
+	box-shadow:0 0 20px rgba(0,0,0,0.5),
+	0 1px 4px rgba(0, 0, 0, 0.3), 
+	0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+h1, h2, h3
+{
+	margin: 0;
+	padding: 0;
+	font-weight: 600;
+	color: #ffffff;
+}
+
+h4
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    font-size: 13pt;
+    font-weight: 300;
+    color: #6c6c6c;
+}
+
+/*********************************************************************************/
+/* Button Style                                                                  */
+/*********************************************************************************/
+
+	.button
+{
+	display: inline-block;
+	padding: 1.3em 3em;
+	background: #2C383B;
+	-moz-transition: opacity 0.25s ease-in-out;
+	-webkit-transition: opacity 0.25s ease-in-out;
+	-o-transition: opacity 0.25s ease-in-out;
+	-ms-transition: opacity 0.25s ease-in-out;
+	transition: opacity 0.25s ease-in-out;
+	letter-spacing: 0.20em;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 600;
+	color: #FFF;
+}
+
+.button:hover
+{
+}
+
+.button:active
+{
+}
+
+.button-big
+{
+	padding: 1.6em 4em;
+	font-size: 1.4em;
+	font-weight: 900;
+}
+
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+
+
+#header
+{
+	background: #FFF;
+	width:780px;
+	margin: 0 auto;
+	height: 70px;
+	box-shadow:0 0 5px rgba(0,0,0,0.8) inset;
+	
+
+}
+
+#logo
+{
+	text-transform: uppercase;
+	color: #000000;
+	text-align: center;
+	padding-top: 2%;
+	height: 70px;
+}
+
+
+
+#logo h1
+{
+	display: inline-block;
+	font-size: 36px;
+	font-weight: 700;
+	padding-right: 0.50em;
+	border-right: 1px solid rgba(0,0,0,0.3);
+}
+
+
+#logo span
+{	
+	letter-spacing: 0.15em;
+	font-size: 25px;
+	font-weight: 300;
+	padding-left: 2%;
+	padding-bottom: 2%;
+}
+
+
+#logo a
+{
+	text-decoration: none;
+	color: #000000;
+}
+
+
+/*********************************************************************************/
+/* Banner                                                                        */
+/*********************************************************************************/
+	
+#banner-wrapper
+{
+	background: rgba(46, 46, 46, 0.39);
+	width:780px;
+	margin: 0 auto;
+	box-shadow:0 0 5px rgba(0,0,0,0.8) inset;
+	
+}
+
+#banner 
+{
+	padding-top: 1%;
+	padding-bottom: 1%;
+	height: 20px;
+	text-align: center;
+}
+
+
+/*********************************************************************************/
+/* Page                                                                          */
+/*********************************************************************************/
+
+#wrapper
+{
+	background: #FFF;
+	width:780px;
+	margin: 0 auto;
+
+}
+
+#page
+{
+	overflow: hidden;
+	padding: 6em 0em;
+	border-bottom: 2px solid #E3E3E3;
+	text-align: center;
+}
+
+#page .button
+{
+	margin-top: 2em;
+}
+
+/*********************************************************************************/
+/* Featured                                                                      */
+/*********************************************************************************/
+
+#featured-wrapper
+{
+	overflow: hidden;
+	padding: 100px;
+	background: #FFF;
+	text-align: center;
+	box-shadow:0 0 5px rgba(0,0,0,0.8) inset;
+
+
+
+
+}
+
+#featured
+{
+	overflow: hidden;
+}
+
+#featured .major
+{
+	overflow: hidden;
+	margin-bottom: 3em;
+	padding-bottom: 2em;
+	border-bottom: 1px solid #E8E8E8;
+}
+
+#featured .major h2
+{
+	font-size: 3em;
+}
+
+#featured .major .byline
+{
+	font-size: 1.3em;
+}
+
+#featured .title
+{
+	margin-bottom: 1.5em;
+	padding-bottom: 1.5em;
+	border-bottom: 1px solid #E3E3E3;
+}
+
+#featured .title h2
+{
+	font-size: 1.2em;
+}
+
+#featured h2
+{
+	text-align: center;
+}
+
+#featured .icon
+{
+	position: relative;
+	display: inline-block;
+	width: 150px;
+	height: 150px;
+	background: #2C383B;
+	margin: 0px auto 20px auto;
+	line-height:  150px;
+	font-size: 5em;
+	text-align: center;
+	color: #FFF;
+}
+
+/*********************************************************************************/
+/* Footer                                                                        */
+/*********************************************************************************/
+
+#footer-wrapper
+{
+	width:780px;
+	margin: 0 auto;
+	box-shadow:0 0 5px rgba(0,0,0,0.8) inset;
+	background: rgba(46, 46, 46, 0.39);
+	
+	
+}
+#footer
+{
+	padding-top: 0.5%;
+	padding-bottom: 2%;
+	height: 20px;
+	text-align: center;
+
+	color: #FFFFFF;
+	font-size: 12px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+}

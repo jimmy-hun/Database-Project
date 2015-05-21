@@ -1,0 +1,32 @@
+=======================================================================================================================================================================
+Ingredients
+Id 	Ing Name 	
+3  	Banana  	
+1  	Fish  		
+5  	KitKat  	
+2  	Sausage  	
+=======================================================================================================================================================================
+Recipes
+Id 	Menu 	Recipe Name 		Recipe Image 		
+10  	4		COO  		lolcat_main_0.jpg  	
+13  	4		Secret Recipe  	spells.png  		
+12  	4		Super Meal  	  			
+=======================================================================================================================================================================
+Menus
+Id 	Restaurant 	Menu Desc 	
+4  	12		COOT  		
+7  	10		Mega Menu  	
+8  	4		SUPER  		
+=======================================================================================================================================================================
+Restaurants
+Id 	Rest Name 	Rest Address1 	Rest Address2 	Rest Suburb 	Rest State 	
+12  	Meo  		11 Meo Avenue  	11 Neo Street  	Meo  	Meo  	3241  		
+10  	Restaurant  	123 Street  	NONE  		NONE  	NONE  	1234  		
+4  	RestX  		Rest  		Rest  		Rest  	Rest  	4444  		
+=======================================================================================================================================================================
+Customers
+Id 	Cust Gname 	Cust Fname 	Cust Street 	Cust Suburb 	Cust State 	Cust Postcode 	Cust Email 			Cust Phone 	Cust Mobile 	
+2  	Kitty  		Cat  		asdf  		asdf  		asdf  		1234  		jlhun3@student.monash.edu  	12341234  	12341234  	
+1  	Funny  		Guy  		10 Fun Street  	Funny  		Funny  		FUNN  		funnyguy@gmail.com  		12345678  	87654321  	
+3  	Doll  		Syndrome  	19 Doll Street  Dolls  		SSUZ  		2981  		dollythedog@gmail.com  		02 9712 8312  	02 9712 8312  	
+=======================================================================================================================================================================
